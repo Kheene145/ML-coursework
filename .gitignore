@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep sample data, but ignore large datasets)
+data/*.csv
+!data/sample_loan_data.csv
+data/*.xlsx
+data/*.xls
+
+# Outputs (generated files)
+# Uncomment if you don't want to track output files
+# outputs/
+# *.png
+# *.jpg
+# *.pdf
+
+# Model files
+*.pkl
+*.h5
+*.model
+
+# Logs
+*.log
